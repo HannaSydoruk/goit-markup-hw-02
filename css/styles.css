@@ -1,6 +1,6 @@
 :root {
   --primary-text-color: #434455;
-  --primary-bg-color: #FFFFFF;
+  --primary-bg-color: #ffffff;
   --h1-color: #ffffff;
   --h2-color: #2e2f42;
   --logo-color-web: #4d5ae5;
@@ -136,6 +136,10 @@ button {
 
 .list {
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .team {
