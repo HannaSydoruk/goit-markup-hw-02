@@ -24,7 +24,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
-  background-color: (var(--primary-bg-color));
+  background-color: var(--primary-bg-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -55,29 +55,28 @@ a {
 
 button {
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
 .logo-web {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
-  display: flex;
-  align-items: center;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color-web);
 }
 
+.navigation a.link:hover {
+  text-decoration: none;
+}
+
 .logo-web .logo-studio-dark {
-  width: 71px;
-  height: 21px;
   color: var(--logo-color-stuio-dark);
 }
 
 .logo-web .logo-studio-bright {
-  width: 71px;
-  height: 21px;
   color: var(--logo-color-stuio-bright);
 }
 
@@ -87,37 +86,31 @@ button {
 }
 
 .navigation a:hover,
-a:focus,
-a:active {
+.navigation a:focus,
+.navigation a:active {
   color: var(--navigation-color-active);
   text-decoration: underline;
 }
 
+.contacts {
+  font-style: normal;
+}
 .contacts a {
   color: var(--primary-text-color);
 }
 
 .contacts a:hover,
-a:focus,
-a:active {
+.contacts a:focus,
+.contacts a:active {
   color: var(--contacts-color-active);
   text-decoration: none;
 }
 
 .hero {
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
   background: var(--hero-bg);
 }
 
 .hero h1 {
-  position: absolute;
-  width: 496px;
-  height: 120px;
-  left: 472px;
-  top: 260px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -127,31 +120,22 @@ a:active {
 }
 
 .hero button {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 32px;
-  gap: 10px;
-  position: absolute;
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
   background: var(--hero-button-bg-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--hero-button-color);
 }
 
+.hero button:hover,
+.hero button:focus,
 .hero button:active {
   background-color: var(--hero-button-bg-color-active);
+}
+
+.list {
+  list-style: none;
 }
 
 .team {
@@ -163,21 +147,9 @@ a:active {
 }
 
 .filter button {
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: var(--filter-text);
   background-color: var(--filter-bg-color);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 24px;
-  width: 78px;
-  height: 48px;
-  border: 1px solid var(--filter-border-color);
-  border-radius: 4px;
 }
 
 .footer {
