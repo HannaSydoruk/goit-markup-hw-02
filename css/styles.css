@@ -18,7 +18,8 @@
   --footer-bg-color: #2e2f42;
   --filter-text: #4d5ae5;
   --filter-bg-color: #f4f4fd;
-  --filter-border-color: #e7e9fc;
+  --filter-text-active: #ffffff;
+  --filter-bg-color-active: #404bbf;
 }
 
 body {
@@ -151,9 +152,17 @@ button {
 }
 
 .filter button {
+  font-weight: 500;
   letter-spacing: 0.04em;
   color: var(--filter-text);
   background-color: var(--filter-bg-color);
+  cursor: pointer;
+}
+
+.filter button:hover,
+.filter button:focus {
+  color: var(--filter-text-active);
+  background-color: var(--filter-bg-color-active);
 }
 
 .footer {
