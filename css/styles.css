@@ -1,0 +1,186 @@
+:root {
+  --primary-text-color: #434455;
+  --primary-bg-color: #ffffff;
+  --h1-color: #ffffff;
+  --h2-color: #2e2f42;
+  --logo-color-web: #4d5ae5;
+  --logo-color-stuio-dark: #2e2f42;
+  --logo-color-stuio-bright: #f4f4fd;
+  --hero-bg: #2e2f42;
+  --hero-button-bg-color: #4d5ae5;
+  --hero-button-bg-color-active: #404bbf;
+  --hero-button-color: #ffffff;
+  --navigation-color: #2e2f42;
+  --navigation-color-active: #404bbf;
+  --contacts-color-active: #404bbf;
+  --team-bg-color: #f4f4fd;
+  --footer-color: #f4f4fd;
+  --footer-bg-color: #2e2f42;
+  --filter-text: #4d5ae5;
+  --filter-bg-color: #f4f4fd;
+  --filter-border-color: #e7e9fc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+  background-color: (var(--primary-bg-color));
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--h2-color);
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+body ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo-web {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color-web);
+}
+
+.logo-web .logo-studio-dark {
+  width: 71px;
+  height: 21px;
+  color: var(--logo-color-stuio-dark);
+}
+
+.logo-web .logo-studio-bright {
+  width: 71px;
+  height: 21px;
+  color: var(--logo-color-stuio-bright);
+}
+
+.navigation {
+  color: var(--navigation-color);
+  font-weight: 500;
+}
+
+.navigation a:hover,
+a:focus,
+a:active {
+  color: var(--navigation-color-active);
+  text-decoration: underline;
+}
+
+.contacts a {
+  color: var(--primary-text-color);
+}
+
+.contacts a:hover,
+a:focus,
+a:active {
+  color: var(--contacts-color-active);
+  text-decoration: none;
+}
+
+.hero {
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
+  background: var(--hero-bg);
+}
+
+.hero h1 {
+  position: absolute;
+  width: 496px;
+  height: 120px;
+  left: 472px;
+  top: 260px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--h1-color);
+}
+
+.hero button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+  background: var(--hero-button-bg-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--hero-button-color);
+}
+
+.hero button:active {
+  background-color: var(--hero-button-bg-color-active);
+}
+
+.team {
+  background-color: var(--team-bg-color);
+}
+
+.team-card li {
+  background-color: var(--primary-bg-color);
+}
+
+.filter button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--filter-text);
+  background-color: var(--filter-bg-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 78px;
+  height: 48px;
+  border: 1px solid var(--filter-border-color);
+  border-radius: 4px;
+}
+
+.footer {
+  color: var(--footer-color);
+  background-color: var(--footer-bg-color);
+}
