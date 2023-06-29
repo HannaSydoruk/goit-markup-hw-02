@@ -73,10 +73,6 @@ button {
   color: var(--logo-color-web);
 }
 
-.navigation a.link:hover {
-  text-decoration: none;
-}
-
 .logo-web .logo-studio-dark {
   color: var(--logo-color-stuio-dark);
 }
@@ -90,9 +86,16 @@ button {
   font-weight: 500;
 }
 
-.navigation a:hover,
-.navigation a:focus,
-.navigation a:active {
+.navigation-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.navigation-link a:hover,
+.navigation-link a:focus,
+.navigation-link a:active {
   color: var(--navigation-color-active);
   text-decoration: underline;
 }
