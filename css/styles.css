@@ -13,6 +13,7 @@
   --navigation-color: #2e2f42;
   --navigation-color-active: #404bbf;
   --contacts-color-active: #404bbf;
+  --features-name-color: #2e2f42;
   --team-bg-color: #f4f4fd;
   --footer-color: #f4f4fd;
   --footer-bg-color: #2e2f42;
@@ -145,6 +146,18 @@ button {
 .hero-button:focus,
 .hero-button:active {
   background-color: var(--hero-button-bg-color-active);
+}
+
+.features-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--features-name-color);
+}
+
+.features {
+  color: var(--primary-text-color);
 }
 
 .team {
