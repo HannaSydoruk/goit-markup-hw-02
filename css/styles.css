@@ -165,6 +165,10 @@ button {
   background-color: var(--team-bg-color);
 }
 
+.team-card {
+  background-color: var(--primary-bg-color);
+}
+
 .team-name {
   font-weight: 700;
   font-size: 36px;
@@ -181,10 +185,6 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--h3-color);
-}
-
-.team-card li {
-  background-color: var(--primary-bg-color);
 }
 
 .portfolio-button {
