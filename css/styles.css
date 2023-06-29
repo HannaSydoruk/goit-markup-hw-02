@@ -3,6 +3,7 @@
   --primary-bg-color: #ffffff;
   --h1-color: #ffffff;
   --h2-color: #2e2f42;
+  --h3-color: #2e2f42;
   --logo-color-web: #4d5ae5;
   --logo-color-stuio-dark: #2e2f42;
   --logo-color-stuio-bright: #f4f4fd;
@@ -162,6 +163,24 @@ button {
 
 .team {
   background-color: var(--team-bg-color);
+}
+
+.team-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--h2-color);
+}
+
+.team-person-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--h3-color);
 }
 
 .team-card li {
