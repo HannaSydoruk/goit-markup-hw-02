@@ -86,6 +86,11 @@ button {
   font-weight: 500;
 }
 
+.navigation a:hover,
+.navigation a:focus {
+  color: var(--navigation-color-active);
+}
+
 .navigation-link {
   font-size: 16px;
   line-height: 1.5;
