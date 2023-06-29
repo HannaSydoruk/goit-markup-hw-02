@@ -147,18 +147,35 @@ button {
   background-color: var(--primary-bg-color);
 }
 
-.filter button {
+.portfolio-button {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--filter-text);
   background-color: var(--filter-bg-color);
   cursor: pointer;
 }
 
-.filter button:hover,
-.filter button:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
   color: var(--filter-text-active);
   background-color: var(--filter-bg-color-active);
+}
+
+.portfolio-item-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--h2-color);
+}
+
+.portfolio-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 
 .footer {
