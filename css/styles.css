@@ -111,7 +111,7 @@ button {
   background: var(--hero-bg);
 }
 
-.hero h1 {
+.hero-header {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -120,7 +120,7 @@ button {
   color: var(--h1-color);
 }
 
-.hero button {
+.hero-button {
   background: var(--hero-button-bg-color);
   font-weight: 500;
   font-size: 16px;
@@ -129,9 +129,9 @@ button {
   color: var(--hero-button-color);
 }
 
-.hero button:hover,
-.hero button:focus,
-.hero button:active {
+.hero-button:hover,
+.hero-button:focus,
+.hero-button:active {
   background-color: var(--hero-button-bg-color-active);
 }
 
